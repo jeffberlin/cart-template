@@ -1,9 +1,13 @@
-.container {
+/* .container {
   max-width: 600px;
   max-height: 800px;
   border: 1px solid lightgray;
   padding: 20px;
   overflow: hidden;
+} */
+
+.container {
+  padding: 20px;
 }
 
 .input-info {
