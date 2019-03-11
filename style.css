@@ -10,9 +10,9 @@ html, body {
 
 @media (max-width: 768px) {
   .form-control {
-    font-size: 2rem !important;
+    font-size: 1rem !important;
   }
   .material-icons {
-    font-size: 30px !important;
+    font-size: 26px !important;
   }
 }
