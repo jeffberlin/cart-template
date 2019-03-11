@@ -6,4 +6,7 @@
   .form-control {
     font-size: 2rem !important;
   }
+  .material-icons {
+    font-size: 30px !important;
+  }
 }
