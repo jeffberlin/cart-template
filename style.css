@@ -4,8 +4,17 @@ html, body {
 	text-align: inherit;
 }
 
+.row, h2 {
+  margin-bottom: 15px !important;
+}
+
 .material-icons {
   color: #195a7c;
+}
+
+h2 {
+  margin-top: 30px;
+  letter-spacing: .5px;
 }
 
 @media (max-width: 768px) {
