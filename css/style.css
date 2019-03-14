@@ -17,6 +17,13 @@ h2 {
   letter-spacing: .5px;
 }
 
+.popover-body {
+	background: url("https://sift.com/image/sift-edu/prevent-fraud/avs-cvv/cvv-visa-2x.png");
+	background-size: 100%;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
 @media (max-width: 768px) {
   .form-control {
     font-size: 1.5rem !important;
