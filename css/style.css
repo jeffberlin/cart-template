@@ -19,7 +19,7 @@ h2 {
 
 .popover-body {
 	background: url("https://sift.com/image/sift-edu/prevent-fraud/avs-cvv/cvv-visa-2x.png");
-	background-size: cover;
+	background-size: 70%;
 	background-position: bottom;
 	background-repeat: no-repeat;
 	/* width: 64px; */
