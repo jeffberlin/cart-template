@@ -24,6 +24,8 @@ h2 {
 	background-repeat: no-repeat;
 	/* width: 64px; */
 	height: 74px;
+	margin-top: 8px;
+	margin-bottom: 8px;
 }
 
 @media (max-width: 768px) {
