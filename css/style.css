@@ -8,7 +8,7 @@ html, body {
   margin-bottom: 15px !important;
 }
 
-.material-icons {
+.material-icons, .fa-flag {
   color: #195a7c;
 }
 
@@ -47,7 +47,7 @@ h2 {
   .form-control {
     font-size: 1.5rem !important;
   }
-  .material-icons {
+  .material-icons, .fa-flag {
     font-size: 28px !important;
   }
   .media-input {
