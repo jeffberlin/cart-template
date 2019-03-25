@@ -10,7 +10,7 @@ function showInvalidNotice() {
 function validateEmail() {
   const validate_email = $('input[name=email]').val();
 	console.log("fired");
-  if( /(.+)@(.+){2,}\.(.+){2,}/.test(validate_email) ){
+  if( /(.+)@(.+){2,}\.(.+){2,}/.test(validate_email) ) {
     emailPDF();
   } else {
   	showInvalidNotice();
