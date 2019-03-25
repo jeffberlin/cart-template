@@ -44,7 +44,7 @@
         </div>
 
         <div class="row">
-          <div class="col-sm-12">
+          <div class="col-sm-12" id="checkEmail">
             <div class="input-group">
               <div class="input-group-prepend">
                 <span class="input-group-text" id="basic-addon1" type="email" name="email"><i class="material-icons">alternate_email</i></span>
@@ -455,7 +455,7 @@
 
     <div id="error"></div>
 
-    <button type="submit" name="submit" value="submit" id="submitButton" onclick="emailIsValid()">Email check</button>
+    <button type="submit" name="submit" value="submit" id="submit">Email check</button>
 
     <button type="button" name="button" onclick="bmt_showCart ('CLR=0&CID=1&PRODUCTID=193&PAYMENTMETHOD=1');">Submit</button>
 
@@ -479,13 +479,6 @@
       $('[data-toggle="popover"]').popover()
     })
 
-    //email validation
-    function emailIsValid (email) {
-      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
-    }
-
-    emailIsValid('tyler@tyler@tylermcginnis.com') // false
-    emailIsValid('tyler@tylermcginnis.com') // true
   </script>
   <script src="js/main.js"></script>
 </body>
