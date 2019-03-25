@@ -111,8 +111,18 @@
 
         <div class="row">
           <div class="col-sm-8">
-            <input type="text" class="form-control media-input" placeholder="City" aria-label="City" aria-describedby="basic-addon1" required>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1"><i class="far fa-building"></i></span>
+                <!-- <span class="input-group-text" id="basic-addon1"><i class="material-icons">location_city</i></span> -->
+              </div>
+              <label></label>
+              <input type="text" class="form-control" placeholder="City" aria-label="City" aria-describedby="basic-addon1" required>
+            </div>
           </div>
+        </div>
+
+        <div class="row">
           <div class="col-sm-4">
             <select class="form-control" required>
               <option selected="selected">State</option>
