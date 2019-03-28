@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- Material Design icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
   <script src="https://secure.bmtmicro.com/bmt_cart.js"></script>
   <link rel="stylesheet" href="https://secure.bmtmicro.com/bmt_cart.css">
 
@@ -472,45 +472,11 @@
 
   </div>
 
-
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-  <script type="text/javascript">
-    $(function () {
-      var nua = navigator.userAgent
-      var isAndroid = (nua.indexOf('Mozilla/5.0') > -1 && nua.indexOf('Android ') > -1 && nua.indexOf('AppleWebKit') > -1 && nua.indexOf('Chrome') === -1)
-      if (isAndroid) {
-        $('select.form-control').removeClass('form-control').css('width', '100%')
-      }
-    })
-
-    // Initializes the popover
-    $(function () {
-      $('[data-toggle="popover"]').popover()
-    })
-
-    // setup
-    $("#submit").on("click", validateEmail);
-
-    // adds html when the notice is needed
-    function showInvalidNotice() {
-    	$("#checkEmail").append('<div id="invalidEmail" class="col-xs-6 alert alert-warning alert-dismissible" role="alert"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><strong>Invalid Email</strong></div>');
-    }
-
-    // validation
-    function validateEmail() {
-      const validate_email = $('input[name=email]').val();
-    	console.log("fired");
-      if( /(.+)@(.+){2,}\.(.+){2,}/.test(validate_email) ) {
-        emailPDF();
-      } else {
-      	showInvalidNotice();
-      }
-    }
-
-  </script>
-  <!-- <script src="js/main.js"></script> -->
+  <script src="js/main.js"></script>
 
 </body>
 </html>

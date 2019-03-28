@@ -1,3 +1,16 @@
+$(function () {
+	var nua = navigator.userAgent
+	var isAndroid = (nua.indexOf('Mozilla/5.0') > -1 && nua.indexOf('Android ') > -1 && nua.indexOf('AppleWebKit') > -1 && nua.indexOf('Chrome') === -1)
+	if (isAndroid) {
+		$('select.form-control').removeClass('form-control').css('width', '100%')
+	}
+})
+
+// Initializes the popover
+$(function () {
+	$('[data-toggle="popover"]').popover()
+})
+
 // setup
 $("#submit").on("click", validateEmail);
 
@@ -8,11 +21,11 @@ function showInvalidNotice() {
 
 // validation
 function validateEmail() {
-  const validate_email = $('input[name=email]').val();
+	const validate_email = $('input[name=email]').val();
 	console.log("fired");
-  if( /(.+)@(.+){2,}\.(.+){2,}/.test(validate_email) ) {
-    emailPDF();
-  } else {
-  	showInvalidNotice();
-  }
+	if( /(.+)@(.+){2,}\.(.+){2,}/.test(validate_email) ) {
+		emailPDF();
+	} else {
+		showInvalidNotice();
+	}
 }
