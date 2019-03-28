@@ -43,8 +43,8 @@ h2 {
 	transition: .3s ease-in-out;
 }
 
-#countries::selection {
-	padding-left: 50px !important;
+select option {
+	padding-left: 150px !important;
 }
 
 @media (min-width: 769px) {
