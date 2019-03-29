@@ -43,8 +43,13 @@ h2 {
 	transition: .3s ease-in-out;
 }
 
-select option {
-	padding-left: 150px !important;
+select {
+	background: url(images/test-flag.png) 2% / 100% no-repeat;
+	background-size: 25px 18px;
+	padding-left: 100px;
+	-webkit-appearance: none;
+	appearance: none;
+	-moz-appearance: none;
 }
 
 @media (min-width: 769px) {
