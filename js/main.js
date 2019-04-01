@@ -1,7 +1,7 @@
 // OS detection
-if ( /Android|Opera Mini|iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
-    document.getElementsByClassName("form-control").style.fontSize = '24px';
-}
+// if ( /Android|Opera Mini|iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
+//     document.getElementsByClassName("form-control").style.fontSize = '24px';
+// }
 
 // if ( /iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
 //     document.getElementById("play-img").style.display = 'none';
