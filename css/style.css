@@ -54,7 +54,7 @@ h2 {
 	font-weight: 700;
 	position: absolute;
 	top: 12px;
-	right: 20px;
+	right: 25px;
 	color: #495057;
 	pointer-events: none;
 }
@@ -62,6 +62,12 @@ h2 {
 @media (min-width: 769px) {
 	.material-icons, .far, .fas {
 		font-size: 24px !important;
+	}
+	.countries {
+		background-size: 23px 16px !important;
+	}
+	.wrapper::after {
+		top: 7px;
 	}
 }
 
