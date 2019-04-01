@@ -10,6 +10,7 @@ html, body {
 
 .material-icons, .far, .fas {
   color: #195a7c;
+	font-size: 24px !important;
 }
 
 h2 {
@@ -61,7 +62,7 @@ select {
 	font-size: 18px;
 	font-weight: 700;
 	position: absolute;
-	top: 12px;
+	top: 7px;
 	color: #495057;
 	opacity: .7;
 	pointer-events: none;
@@ -75,7 +76,7 @@ select {
 	right: 24px;
 }
 
-@media (min-width: 769px) {
+/* @media (min-width: 769px) {
 	.material-icons, .far, .fas {
 		font-size: 24px !important;
 	}
@@ -85,7 +86,7 @@ select {
 	.wrapper::after, .state-wrapper::after {
 		top: 7px;
 	}
-}
+} */
 
 @media (max-width: 768px) {
   /* .form-control {
