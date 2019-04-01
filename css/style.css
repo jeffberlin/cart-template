@@ -52,6 +52,7 @@ select {
 
 .countries {
 	padding-left: 38px !important;
+	padding-right: 30px !important;
 }
 
 .wrapper::after, .state-wrapper::after {
@@ -62,6 +63,7 @@ select {
 	position: absolute;
 	top: 12px;
 	color: #495057;
+	opacity: .7;
 	pointer-events: none;
 }
 
