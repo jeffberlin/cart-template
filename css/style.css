@@ -47,16 +47,23 @@ h2 {
 	padding-left: 38px !important;
 }
 
-.wrapper::after {
+.wrapper::after, .state-wrapper::after {
 	font-family: "Font Awesome 5 Free";
 	content: '\f107';
 	font-size: 18px;
 	font-weight: 700;
 	position: absolute;
 	top: 12px;
-	right: 25px;
 	color: #495057;
 	pointer-events: none;
+}
+
+.wrapper::after {
+	right: 10px;
+}
+
+.state-wrapper::after {
+	right: 24px;
 }
 
 @media (min-width: 769px) {
@@ -66,7 +73,7 @@ h2 {
 	.countries {
 		background-size: 23px 16px !important;
 	}
-	.wrapper::after {
+	.wrapper::after, .state-wrapper::after {
 		top: 7px;
 	}
 }
