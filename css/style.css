@@ -44,7 +44,7 @@ h2 {
 }
 
 .countries {
-	padding-left: 35px;
+	padding-left: 30px !important;
 	/* -webkit-appearance: none;
 	appearance: none;
 	-moz-appearance: none; */
