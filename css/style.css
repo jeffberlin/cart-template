@@ -43,6 +43,13 @@ h2 {
 	transition: .3s ease-in-out;
 }
 
+select {
+	-webkit-appearance: none;
+	appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+}
+
 .countries {
 	padding-left: 38px !important;
 }
