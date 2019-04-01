@@ -82,8 +82,6 @@ select.countries:focus {
     5px 5px,
     1px 1.5em;
   background-repeat: no-repeat;
-
-  outline: 0;
 }
 select:-moz-focusring {
   color: transparent;
