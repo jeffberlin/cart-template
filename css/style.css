@@ -44,7 +44,7 @@ select {
 }
 
 .countries {
-	padding-left: 38px !important;
+	/* padding-left: 38px !important; */
 	padding-right: 30px !important;
 }
 
@@ -80,7 +80,7 @@ select {
 	}
 } */
 
-@media (max-width: 768px) {
+@media (max-width: 575px) {
   /* .form-control {
     font-size: 1.5rem !important;
   }
