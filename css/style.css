@@ -11,6 +11,7 @@ html, body {
 .material-icons, .far, .fas {
   color: #195a7c;
 	font-size: 24px !important;
+	width: 24px !important;
 }
 
 h2 {
