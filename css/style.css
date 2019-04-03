@@ -23,7 +23,6 @@ h2 {
 	background-size: 70%;
 	background-position: bottom;
 	background-repeat: no-repeat;
-	/* width: 64px; */
 	height: 74px;
 	margin-top: 8px;
 	margin-bottom: 8px;
@@ -44,7 +43,6 @@ select {
 }
 
 .countries {
-	/* padding-left: 38px !important; */
 	padding-right: 30px !important;
 }
 
@@ -68,31 +66,15 @@ select {
 	right: 24px;
 }
 
-/* @media (min-width: 769px) {
-	.material-icons, .far, .fas {
-		font-size: 24px !important;
-	}
-	.countries {
-		background-size: 23px 16px !important;
-	}
-	.wrapper::after, .state-wrapper::after {
-		top: 7px;
-	}
-} */
-
 @media (max-width: 575px) {
-  /* .form-control {
-    font-size: 1.5rem !important;
-  }
-  .material-icons, .far, .fas {
-    font-size: 28px !important;
-  } */
+
   .media-input {
     margin-bottom: 15px !important;
   }
 }
 
 @media (max-width: 359px) {
+
 	.short-input {
 		padding: .375rem .4rem !important;
 	}
