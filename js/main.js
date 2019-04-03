@@ -1,13 +1,3 @@
-// OS detection
-// if ( /Android|Opera Mini|iPhone|iPod/i.test(navigator.userAgent) ) {
-//     document.getElementsByClassName("form-control").style.fontSize = '24px';
-// }
-
-// if ( /iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
-//     document.getElementById("play-img").style.display = 'none';
-//     document.getElementById("ios-img").style.marginRight = '0';
-// }
-
 $(function () {
 	var nua = navigator.userAgent
 	var isAndroid = (nua.indexOf('Mozilla/5.0') > -1 && nua.indexOf('Android ') > -1 && nua.indexOf('AppleWebKit') > -1 && nua.indexOf('Chrome') === -1)
