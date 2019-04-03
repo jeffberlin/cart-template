@@ -73,6 +73,13 @@ select {
   }
 }
 
+@media (max-width: 414px) {
+
+	.state-wrapper select {
+		padding-right: 25px;
+	}
+}
+
 @media (max-width: 359px) {
 
 	.short-input {
