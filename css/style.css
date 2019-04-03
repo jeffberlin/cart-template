@@ -91,3 +91,9 @@ select {
     margin-bottom: 15px !important;
   }
 }
+
+@media (max-width: 359px) {
+	.short-input {
+		padding: .375rem .4rem;
+	}
+}
