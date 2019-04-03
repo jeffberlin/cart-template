@@ -37,7 +37,7 @@ function showInvalidNotice() {
 
 // validation
 function validateEmail() {
-	const validate_email = $('input[name=email]').val();
+	const validate_email = $('input[name=EMAIL]').val();
 	console.log("fired");
 	if( /(.+)@(.+){2,}\.(.+){2,}/.test(validate_email) ) {
 		emailPDF();
