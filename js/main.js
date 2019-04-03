@@ -11,6 +11,15 @@ $(function () {
 	$('[data-toggle="popover"]').popover()
 })
 
+// CVV popover change for Amex
+function toggleDigits() {
+	// assigning #cardNumber to a variable
+	const amex = getElementById('cardNumber');
+	if (amex ===) {
+
+	}
+}
+
 // setup
 $("#submit").on("click", validateEmail);
 
