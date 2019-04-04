@@ -21,8 +21,8 @@ h2 {
 }
 
 .popover-body {
-	background: url("../images/cvv-amex-2x.png");
-	/* background: url("../images/cvv-visa-2x.png"); */
+	/* background: url("../images/cvv-amex-2x.png"); */
+	background: url("../images/cvv-visa-2x.png");
 	background-size: 70%;
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -67,6 +67,18 @@ select {
 
 .state-wrapper::after {
 	right: 24px;
+}
+
+.submit-btn {
+	background-color: #195a7c;
+	border: none;
+	color: #ffffff;
+	width: 100%;
+	letter-spacing: .7px;
+}
+
+.submit-btn:hover {
+	color: #ffffff;
 }
 
 @media (max-width: 575px) {

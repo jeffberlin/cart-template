@@ -26,6 +26,15 @@ $(function () {
 // 	console.log(amex);
 // }
 
+function switchCvv() {
+	const newTitle = "The CVV Number is the 4 digit number on the front of your card."
+	const amexImage = document.getElementsByClassName('popover-body').style.background = "url('../images/cvv-amex-2x.png')";
+	$('#CVV').attr('data-original-title', newTitle);
+	// $('.popover-body').css({
+	// 	"background": "url('./images/cvv-amex-2x.png')"
+	// })
+}
+
 
 // setup
 $("#submit").on("click", validateEmail);
