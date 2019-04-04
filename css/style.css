@@ -69,16 +69,25 @@ select {
 	right: 24px;
 }
 
-.submit-btn {
+.btn {
 	background-color: #195a7c;
 	border: none;
 	color: #ffffff;
 	width: 100%;
 	letter-spacing: .7px;
+	outline: none;
 }
 
-.submit-btn:hover {
+.btn:hover {
 	color: #ffffff;
+}
+
+.btn:focus {
+	box-shadow: none;
+}
+
+.btn:active {
+	transform: translateY(1px);
 }
 
 @media (max-width: 575px) {
