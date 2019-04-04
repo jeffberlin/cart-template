@@ -5,7 +5,7 @@ html, body {
 }
 
 .row, h2 {
-  margin-bottom: 15px !important;
+  margin-bottom: 10px !important;
 }
 
 .material-icons, .far, .fas {
@@ -94,7 +94,7 @@ select {
 @media (max-width: 575px) {
 
   .media-input {
-    margin-bottom: 15px !important;
+    margin-bottom: 10px !important;
   }
 }
 
