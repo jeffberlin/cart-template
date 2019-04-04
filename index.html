@@ -26,10 +26,10 @@
 
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 split-right">
-            <input type="text" class="form-control media-input" id="FIRSTNAME" name="FIRSTNAME" value="" placeholder="First Name" required>
+            <input type="text" class="form-control media-input" id="FIRSTNAME" name="FIRSTNAME" value="" placeholder="First Name" maxlength="20" required>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 split-left">
-            <input type="text" class="form-control" name="LASTNAME" value="" placeholder="Last Name" id="LASTNAME" required>
+            <input type="text" class="form-control" name="LASTNAME" value="" placeholder="Last Name" id="LASTNAME" maxlength="25" required>
           </div>
         </div>
 
@@ -40,7 +40,7 @@
                 <span class="input-group-text" id="basic-addon1"><i class="material-icons">work_outline</i></span>
               </div>
               <label></label>
-              <input type="text" class="form-control" placeholder="Company (Optional)" aria-label="Company" aria-describedby="basic-addon1" id="COMPANY" name="COMPANY">
+              <input type="text" class="form-control" placeholder="Company (Optional)" aria-label="Company" aria-describedby="basic-addon1" id="COMPANY" name="COMPANY" maxlength="50">
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@
                 <span class="input-group-text" id="basic-addon1" type="email" name="email"><i class="material-icons">alternate_email</i></span>
               </div>
               <label></label>
-              <input type="text" class="form-control" id="EMAIL" name="EMAIL" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1" required>
+              <input type="text" class="form-control" id="EMAIL" name="EMAIL" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1" maxlength="50" required>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@
                 <span class="input-group-text" id="basic-addon1"><i class="material-icons">credit_card</i></span>
               </div>
               <label></label>
-              <input type="text" class="form-control" id="CCNUMBER" name="CCNUMBER" value="" placeholder="Card Number" aria-label="Card Number" aria-describedby="basic-addon1" required>
+              <input type="text" class="form-control" id="CCNUMBER" name="CCNUMBER" value="" placeholder="Card Number" aria-label="Card Number" aria-describedby="basic-addon1" size="30" autocomplete="off" required>
             </div>
           </div>
         </div>
@@ -76,8 +76,8 @@
                 <span class="input-group-text" id="basic-addon1"><i class="material-icons">today</i></span>
               </div>
               <label></label>
-              <input type="text" class="form-control short-input" id="CCEXPIREMONTH" name="CCEXPIREMONTH" placeholder="MM" aria-label="MM" aria-describedby="basic-addon1" required>
-              <input type="text" class="form-control short-input" id="CCEXPIREYEAR" name="CCEXPIREYEAR" placeholder="YY" aria-label="YY" aria-describedby="basic-addon1" required>
+              <input type="text" class="form-control short-input" id="CCEXPIREMONTH" name="CCEXPIREMONTH" placeholder="MM" aria-label="MM" aria-describedby="basic-addon1" maxlength="2" autocomplete="off" required>
+              <input type="text" class="form-control short-input" id="CCEXPIREYEAR" name="CCEXPIREYEAR" placeholder="YY" aria-label="YY" aria-describedby="basic-addon1" maxlength="2" autocomplete="off" required>
             </div>
           </div>
           <div class="col-6" style="padding-left: 8px;">
@@ -86,7 +86,7 @@
                 <span class="input-group-text" id="basic-addon1"><i class="material-icons">lock</i></span>
               </div>
               <label></label>
-              <input type="text" class="form-control" id="CVV" name="CVV" placeholder="CVV" aria-label="CVV" aria-describedby="basic-addon1" data-toggle="popover" data-trigger="focus" data-placement="top" title="The CVV Number is the 3 digit number on the back of your card." required>
+              <input type="text" class="form-control" id="CVV" name="CVV" placeholder="CVV" aria-label="CVV" aria-describedby="basic-addon1" data-toggle="popover" data-trigger="focus" data-placement="top" title="The CVV Number is the 3 digit number on the back of your card." size="4" autocomplete="off" required>
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@
                 <span class="input-group-text" id="basic-addon1"><i class="far fa-file-alt"></i></span>
               </div>
               <label></label>
-              <input type="text" class="form-control" name="PONUMBER" placeholder="Purchase Order Number (Optional)" aria-label="Purchase Order Number" aria-describedby="basic-addon1">
+              <input type="text" class="form-control" name="PONUMBER" placeholder="Purchase Order Number (Optional)" aria-label="Purchase Order Number" aria-describedby="basic-addon1" size="30" autocomplete="off">
             </div>
           </div>
         </div>
@@ -114,7 +114,7 @@
                 <span class="input-group-text" id="basic-addon1"><i class="material-icons">phone</i></span>
               </div>
               <label></label>
-              <input type="text" class="form-control" id="WORKPHONE" name="WORKPHONE" placeholder="Phone Number" aria-label="Phone Number" aria-describedby="basic-addon1" required>
+              <input type="text" class="form-control" id="WORKPHONE" name="WORKPHONE" placeholder="Phone Number" aria-label="Phone Number" maxlength="20" required>
             </div>
           </div>
         </div>
@@ -126,14 +126,14 @@
                 <span class="input-group-text" id="basic-addon1"><i class="material-icons">home</i></span>
               </div>
               <label></label>
-              <input type="text" class="form-control" id="ADDRESS1" name="ADDRESS1" placeholder="Address" aria-label="Address" aria-describedby="basic-addon1" required>
+              <input type="text" class="form-control" id="ADDRESS1" name="ADDRESS1" placeholder="Address" aria-label="Address" maxlength="50" required>
             </div>
           </div>
         </div>
 
         <div class="row">
           <div class="col-sm-12">
-            <input type="text" class="form-control" id="ADDRESS2" name="ADDRESS2" placeholder="Apt., Suite, etc." aria-label="Apt., Ste, etc." aria-describedby="basic-addon1">
+            <input type="text" class="form-control" id="ADDRESS2" name="ADDRESS2" placeholder="Apt., Suite, etc." aria-label="Apt., Ste, etc." maxlength="50">
           </div>
         </div>
 
@@ -144,7 +144,7 @@
                 <span class="input-group-text" id="basic-addon1"><i class="material-icons">location_city</i></span>
               </div>
               <label></label>
-              <input type="text" class="form-control" id="CITY" name="CITY" placeholder="City" aria-label="City" aria-describedby="basic-addon1" required>
+              <input type="text" class="form-control" id="CITY" name="CITY" placeholder="City" aria-label="City" aria-describedby="basic-addon1" maxlength="50" required>
             </div>
           </div>
         </div>
