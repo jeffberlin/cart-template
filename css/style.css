@@ -76,6 +76,7 @@ select {
 	width: 100%;
 	letter-spacing: .7px;
 	outline: none;
+	height: 40px;
 }
 
 .btn:hover {
