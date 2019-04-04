@@ -91,11 +91,26 @@ select {
 	transform: translateY(1px);
 }
 
+.split-right {
+	padding-right: 8px !important;
+}
+
+.split-left {
+	padding-left: 8px !important;
+}
+
 @media (max-width: 575px) {
 
   .media-input {
     margin-bottom: 10px !important;
   }
+
+	.split-right {
+		padding-right: 15px !important;
+	}
+	.split-left {
+		padding-left: 15px !important;
+	}
 }
 
 @media (max-width: 414px) {
