@@ -7,32 +7,16 @@ $(function () {
 })
 
 // Initializes the popover
-$(function () {
-	$('[data-toggle="popover"]').popover()
-})
-
-// CVV popover change for Amex
-// function toggleDigits() {
-// 	// assigning #cardNumber to a variable
-// 	const amex = document.getElementById('cardNumber').value;
-// 	// pull first 2 digits of card number
-// 	if (amex ===) {
-//
-// 	}
-// }
-// function functionName() {
-// 	const amex = document.getElementById('cardNumber').value;
-//
-// 	console.log(amex);
-// }
+// $(function () {
+// 	$('[data-toggle="popover"]').popover()
+// })
 
 function switchCvv() {
-	const newTitle = "The CVV Number is the 4 digit number on the front of your card."
-	const amexImage = document.getElementsByClassName('popover-body').style.background = "url('../images/cvv-amex-2x.png')";
+	const newTitle = "The CVV Number is the 4 digit number on the front of your card.";
+
+	$('.popover-body').toggleClass('popover-body popover-body-amex');
 	$('#CVV').attr('data-original-title', newTitle);
-	// $('.popover-body').css({
-	// 	"background": "url('./images/cvv-amex-2x.png')"
-	// })
+	// document.getElementById("CVV").style.backgroundImage = "url('images/cvv-amex-2x.png')";
 }
 
 
