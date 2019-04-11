@@ -14,21 +14,29 @@ html, body {
 }
 
 #dismissbutton {
-	font-size: 30px;
+	font-size: 30px !important;
   padding: 0px;
   margin: 0px;
-	color: #000000;
-	opacity: .4;
   text-decoration: none;
   transition: 0.3s;
   cursor: pointer;
 }
 
-#dismissbutton:hover {
-	color: #195a7c;
-	opacity: 1;
-	transition: .3s ease;
+#dismissbutton:hover .far.fa-window-close, #dismissbutton .fas.fa-window-close {
+	display: none;
 }
+
+#dismissbutton:hover .fas.fa-window-close {
+	display: inline;
+}
+
+/* .fa-window-close:hover {
+	transition: .3s ease;
+	font-family: "Font Awesome 5 Free";
+	content: '\f410';
+	font-weight: 700;
+	font-size: 1.2rem !important;
+} */
 
 .material-icons, .far, .fas {
   color: #195a7c;
