@@ -22,9 +22,28 @@
 
   <div class="container-fluid text-center" style="padding-top: 50px; padding-bottom: 50px;">
 
+    <div class="col-7" style="width: 100%; text-align: right; vertical-align: middle;">
+      <a id="dismissbutton" href="javascript:dismissCart();">x</a>
+    </div>
+
     <div class="row justify-content-center">
 
       <div class="col-12" style="max-width: 520px;">
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="material-icons">attach_money</i>
+                </span>
+              </div>
+              <select class="form-control" name="">
+                <option value="" selected>Credit/Debit Card</option>
+              </select>
+            </div>
+          </div>
+        </div>
 
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 split-right">
@@ -51,7 +70,7 @@
           <div class="col-sm-12" id="checkEmail">
             <div class="input-group">
               <div class="input-group-prepend">
-                <span class="input-group-text"><i class="material-icons">alternate_email</i></span>
+                <span class="input-group-text"><i class="material-icons">mail_outline</i></span>
               </div>
               <label></label>
               <input type="text" class="form-control" id="EMAIL" name="EMAIL" placeholder="Email" aria-label="Email" maxlength="50" required>

@@ -4,15 +4,40 @@ html, body {
 	text-align: inherit;
 }
 
+.container-fluid {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
 .row, h2 {
-  margin-bottom: 10px !important;
+  margin-bottom: 8px !important;
+}
+
+#dismissbutton {
+	font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+	color: #000000;
+	opacity: .4;
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#dismissbutton:hover {
+	color: #195a7c;
+	opacity: 1;
+	transition: .3s ease;
 }
 
 .material-icons, .far, .fas {
   color: #195a7c;
-	font-size: 1.5rem !important;
-	width: 24px !important;
-	height: 24px !important;
+	/* font-size: 1.5rem !important; */
+	font-size: 1.2rem !important;
+	width: 1.2rem !important;
+	height: 1.2rem !important;
+	/* width: 24px !important;
+	height: 24px !important; */
 }
 
 h2 {
@@ -38,6 +63,10 @@ h2 {
 	height: 74px;
 	margin-top: 8px;
 	margin-bottom: 8px;
+}
+
+.form-control {
+	font-size: 0.8rem !important;
 }
 
 .form-control:focus {
