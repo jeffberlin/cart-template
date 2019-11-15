@@ -128,18 +128,6 @@
         </div>
 
 <button type="button" name="button" id="cvvCheck" onclick="switchCvv();">CVV</button>
-<script type="text/javascript">
-  function switchCvv() {
-    switchTitle();
-    switchImage();
-  }
-  function switchTitle() {
-    document.getElementById('CVV').title = "The CVV Number is the 4 digit number on the back of your card.";
-  }
-  function switchImage() {
-    document.getElementsByClassName('popover-body').style.background = "images/cvv-amex-2x.png";
-  }
-</script>
 
         <h4 class="text-left">Billing Information</h4>
 
@@ -538,9 +526,41 @@
   <script type="text/javascript">
     // Initializes the popover
     $(function () {
-      $('[data-toggle="popover"]').popover()
-    })
+      $('[data-toggle="popover"]').popover();
+    });
+
     // $('#CVV').popover('show')
+
+    function switchCvv() {
+      $('#CVV').popover({
+        content: "<img src='https://secure.bmtmicro.com/ShoppingCart/cvv-amex-2x.png'>",
+        html: true
+      });
+
+    	var newTitle = "The CVV Number is the 4 digit number on the front of your card.";
+      // $('.popover-body').remove();
+
+    	// $('.popover-body').addClass('popover-body-amex');
+      // $('[data-toggle="popover"]').popover();
+    	$('#CVV').attr('data-original-title', newTitle);
+      $('#CVV').popover('hide');
+
+      // var x = document.getElementById('popover-body');
+    	// var x = document.getElementsByClassName("popover-body");
+      // alert(x);
+      // x.style.background = "images/cvv-amex-2x.png";
+    }
+
+    // function switchCvv() {
+    //   switchTitle();
+    //   switchImage();
+    // }
+    // function switchTitle() {
+    //   document.getElementById('CVV').title = "The CVV Number is the 4 digit number on the back of your card.";
+    // }
+    // function switchImage() {
+    //   document.getElementsByClassName('popover-body').style.background = "images/cvv-amex-2x.png";
+    // }
   </script>
 
   <script src="js/main.js"></script>

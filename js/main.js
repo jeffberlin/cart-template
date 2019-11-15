@@ -11,13 +11,13 @@ $(function () {
 // 	$('[data-toggle="popover"]').popover()
 // })
 
-function switchCvv() {
-	const newTitle = "The CVV Number is the 4 digit number on the front of your card.";
-
-	$('.popover-body').toggleClass('popover-body popover-body-amex');
-	$('#CVV').attr('data-original-title', newTitle);
+// function switchCvv() {
+// 	var newTitle = "The CVV Number is the 4 digit number on the front of your card.";
+//
+// 	$('.popover-body').toggleClass('popover-body popover-body-amex');
+// 	$('#CVV').attr('data-original-title', newTitle);
 	// document.getElementById("CVV").style.backgroundImage = "url('images/cvv-amex-2x.png')";
-}
+// }
 
 
 // setup

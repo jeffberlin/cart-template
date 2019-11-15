@@ -1,4 +1,4 @@
-html, body {
+/* html, body {
 	overflow-x: hidden;
 	width: 100%;
 	text-align: inherit;
@@ -27,7 +27,7 @@ html, body {
 
 #dismissbutton:hover .fas.fa-window-close {
 	display: inline;
-}
+} */
 
 /* .fa-window-close:hover {
 	transition: .3s ease;
@@ -37,32 +37,32 @@ html, body {
 	font-size: 1.2rem !important;
 } */
 
-.material-icons, .far, .fas {
-  color: #195a7c;
+/* .material-icons, .far, .fas {
+  color: #195a7c; */
 	/* font-size: 1.5rem !important; */
-	font-size: 1.2rem !important;
+	/* font-size: 1.2rem !important;
 	width: 1.2rem !important;
-	height: 1.2rem !important;
+	height: 1.2rem !important; */
 	/* width: 24px !important;
 	height: 24px !important; */
-}
+/* }
 
 h2 {
   margin-top: 30px;
   letter-spacing: .5px;
-}
+} */
 
-.popover-body {
+/* .popover-body { */
 	/* background: url("../images/cvv-amex-2x.png"); */
-	background: url("../images/cvv-visa-2x.png");
+	/* background: url("../images/cvv-visa-2x.png");
 	background-size: 70%;
 	background-position: bottom;
 	background-repeat: no-repeat;
 	height: 74px;
 	margin-top: 8px;
 	margin-bottom: 8px;
-}
-.popover-body-amex {
+} */
+/* .popover-body-amex {
 	background: url("../images/cvv-amex-2x.png");
 	background-size: 70%;
 	background-position: bottom;
@@ -83,18 +83,18 @@ h2 {
 	box-shadow: 0px 0px 0px 2px rgba(25,90,124,0.6);
 }
 
-/* select {
+select {
 	-webkit-appearance: none;
 	appearance: none;
 	-moz-appearance: none;
 	-o-appearance: none;
-} */
+}
 
 .countries {
 	padding-right: 30px !important;
 }
 
-/* .wrapper::after, .state-wrapper::after {
+.wrapper::after, .state-wrapper::after {
 	font-family: "Font Awesome 5 Free";
 	content: '\f107';
 	font-size: 18px;
@@ -104,9 +104,9 @@ h2 {
 	color: #495057;
 	opacity: .7;
 	pointer-events: none;
-} */
+}
 
-/* .wrapper::after {
+.wrapper::after {
 	right: 10px;
 }
 
@@ -114,7 +114,7 @@ h2 {
 	right: 24px;
 } */
 
-.btn {
+/* .btn {
 	background-color: #195a7c;
 	border: none;
 	color: #ffffff;
@@ -170,4 +170,400 @@ h2 {
 	.short-input {
 		padding: .375rem .4rem !important;
 	}
-}
+} */
+html, body {
+   background: transparent;
+   }
+
+:-moz-ui-invalid:not(output) {
+   box-shadow: none;
+   }
+
+.row {
+   margin-bottom: 8px;
+   margin-right: -5px;
+   margin-left: -5px;
+   }
+.row > [class^="col-"],
+.row > [class*=" col-"] {
+   padding-right: 5px;
+   padding-left: 5px;
+   }
+
+.container-fluid {
+   padding-left: 0px;
+   padding-right: 0px;
+   }
+
+.material-icons, .far, .fas {
+   color: #195a7c;
+   font-size: 1.0rem !important;
+   width: 1.0rem !important;
+   height: 1.0rem !important;
+   }
+
+.popover-body {
+   background: url("https://secure.bmtmicro.com/ShoppingCart/cvv-visa-2x.png");
+   background-size: 70%;
+   background-position: bottom;
+   background-repeat: no-repeat;
+   height: 74px;
+   margin-top: 8px;
+   margin-bottom: 8px;
+   }
+
+.popover-body-amex {
+   background: url("https://secure.bmtmicro.com/ShoppingCart/cvv-amex-2x.png");
+   background-size: 70%;
+   background-position: bottom;
+   background-repeat: no-repeat;
+   height: 74px;
+   margin-top: 8px;
+   margin-bottom: 8px;
+   }
+
+.form-control {
+   font-size: 0.8rem;
+   padding: 0px 5px;
+   }
+
+.form-control:focus {
+   border-color: #195a7c;
+   -webkit-box-shadow: 0px 0px 0px 2px rgba(25,90,124,0.6);
+   -moz-box-shadow: 0px 0px 0px 2px rgba(25,90,124,0.6);
+   box-shadow: 0px 0px 0px 2px rgba(25,90,124,0.6);
+   }
+
+.gifticon {
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(https://secure.bmtmicro.com/ShoppingCart/gift.gif);
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 24px;
+    height: 24px;
+    }
+.cdcontainer {
+    white-space: nowrap;
+    padding-right: 20px;
+    }
+.cdicon {
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(https://secure.bmtmicro.com/resources/cd30.gif);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    }
+.cdtext {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+    padding-left: 5px;
+    font-weight: bold;
+    }
+.orderlogo { /* Logo displayed on top of order received/deliver/error pages */
+    display: inline-block;
+    background-image: url(https://secure.bmtmicro.com/ShoppingCart/logox.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 40px;
+    }
+.orderpage {
+    text-align: left;
+    }
+
+.header {
+    color:#888888;
+    }
+
+.pad {
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-top: 3px;
+    text-align: left;
+    }
+
+.itemheader {
+    padding: 3px;
+    font-weight: normal;
+    }
+.item_quantity_field,
+.item_quantity_selector {
+    width:48px;
+    text-align:center;
+    }
+.itemhead {
+    padding-top: 10px;
+    border-bottom: 1px solid #808080;
+    font-weight: bold;
+    }
+.item {
+    border-top: 1px solid #808080;
+    font-weight: bolder;
+    padding: 3px;
+    }
+.item_quantity {
+    width:8%;
+    text-align:center;
+    white-space:nowrap;
+    }
+.item_name {
+    width:57%;
+    text-align:left;
+    }
+.item_gift {
+    width:5%;
+    text-align:center;
+    white-space:nowrap;
+    }
+.item_remove {
+    width:5%;
+    text-align:center;
+    white-space:nowrap;
+    }
+.item_price {
+    width:15%;
+    text-align:right;
+    white-space:nowrap;
+    }
+.item_discount {
+    width:12%;
+    text-align:right;
+    white-space:nowrap;
+    }
+.item_total {
+    width:15%;
+    text-align:right;
+    white-space:nowrap;
+    }
+.total {
+    white-space: nowrap;
+    padding: 7px 2px 3px 5px;  /* top, right, bottom, left */
+    font-weight: bold;
+    color: #000000
+    }
+.item_inactive {
+    color: red;
+    }
+
+#formlogo,
+#currencyselector,
+#languageselector {
+    margin-right: 8px;
+    }
+
+#formlogo {
+    background-image: url(https://secure.bmtmicro.com/ShoppingCart/logox.gif); /* Logo displayed in order form header */
+    background-repeat: no-repeat;
+    height: 40px; /* Set "height: auto;" if svg image is used */
+    flex-grow: 100;
+    }
+
+#formfooter {
+    font-size: 0.65em;
+    padding: 0px;
+    text-align: center;
+    color: right;
+    }
+
+#disclaimer {
+    text-align: justify;
+    font-size: 0.75em;
+    padding: 7px 15px 0px 15px;
+    }
+
+#total_price_lbl, #total_tax_lbl, #total_shipping_lbl {
+    text-align:left;
+    }
+#total_price, #total_tax, #total_shipping {
+    text-align:right;
+    }
+#customerLogin {
+    display: none;
+    }
+.windowtitlebar {
+    font-weight: bold;
+    text-align: left;
+    line-height: 16pt;
+    }
+.windowtitlebartext {
+    padding-left: 10px;
+    }
+.windowcloseicon {
+    float: right;
+    background-image: url(https://secure.bmtmicro.com/ShoppingCart/closebutton.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    width:20px;
+    height:20px;
+    margin-right: 3px;
+    }
+
+.deliveryheading {
+    text-align: left;
+    color: #808080;
+    font-weight: bold;
+    }
+
+#orderbuttondiv {
+    text-align: center;
+    padding-bottom: 15px;
+    }
+
+#cartcontainer {
+    display:     table;
+    width:       100%;
+    height:      100%;
+    white-space: nowrap;
+    padding:     30px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:   0.8rem;
+    font-weight: normal;
+    color:       #000000;
+    }
+
+#cartframecnr {
+    display:     table-cell;
+    text-align:  center;
+    vertical-align: middle;
+    }
+
+#cartframe,
+#sidebarframe {
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    border: 1px solid #000000;
+    -moz-border-radius:  10px;
+    -webkit-border-radius:  10px;
+    -khtml-border-radius:  10px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+    }
+
+#cartframe {
+    padding: 15px 15px 5px 15px;
+    }
+
+#sidebarframe {
+    padding: 15px 10px 5px 10px;
+    margin-left: 2px;
+    width: 210px;
+    }
+
+@media screen and (max-width: 500px) {
+    #cartcontainer {
+        padding: 0px;
+        }
+    #sidebarframe {
+        display: none;
+        }
+    #cartframe {
+        -moz-border-radius:  0px;
+        -webkit-border-radius: 0px;
+        -khtml-border-radius: 0px;
+        border-radius: 0px;
+        border: none;
+        }
+    }
+
+#cartform {
+    position: relative; /* position:relative is needed for washout to work properly! Without this, the whole page will be washed instead of just cartform */
+    width: 100%;
+    max-width: 420px;
+    }
+
+#progresswashout {
+    display:none;
+    position:absolute;     /* set to "absolute" to wash out order form only, set to "fixed" to wash out whole page */
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    background:#FFFFFF; /* set to #FFFFFF to washout, set to #000000 to blackout */
+    opacity:0.5;
+    z-Index:50;        /* position underneath the progress indicator */
+    filter:alpha(opacity=50);
+    }
+#progressindicator {
+    display:none;
+    position:fixed;    /* we set the position to fixed to ensure that the progress indicator is centered relative to the page and not to the form */
+    top:50%;           /* center vertically */
+    left:50%;          /* center horizontally */
+    margin-left:-63px; /* adjust for center-point: half the width of the progress indicator image */
+    margin-top:-63px;  /* adjust for center-point: half the height of the progress indicator image */
+    background-image: url(https://secure.bmtmicro.com/ShoppingCart/loading.gif); /* the progress indicator image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:126px;       /* the width of the progress indicator image */
+    height:126px;      /* the height of the progress indicator image */
+    z-Index:51;        /* position on top of washout screen */
+    }
+
+#cartcontainer legend {
+   display: block;
+   text-align: left;
+   width: 100%;
+   border-bottom: 1px solid #808080;
+   padding-bottom: 2px;
+   color:        #888888;
+   font-size:   0.8rem;
+   font-weight: bold;
+   }
+
+#loginlink {
+    text-align: left;
+    margin-bottom: 8px;
+    }
+
+.dismissbutton {
+    text-decoration: none !important;
+    cursor: pointer;
+    }
+
+.dismissbutton .far.fa-window-close,
+.dismissbutton .fas.fa-window-close {
+    font-size: 1.5rem !important;
+    }
+
+.dismissbutton .far.fa-window-close {
+    color: #888888;
+    }
+.dismissbutton .fas.fa-window-close {
+    color: #FF0000;
+    }
+
+.dismissbutton:hover .far.fa-window-close,
+.dismissbutton .fas.fa-window-close {
+    display: none;
+    }
+
+.dismissbutton:hover .fas.fa-window-close,
+.dismissbutton .far.fa-window-close {
+    display: inline;
+    }
+
+.paybutton {
+   background-color: #0074C0;
+   border: none;
+   color: #ffffff;
+   letter-spacing: .7px;
+   outline: none;
+   height: 40px;
+   }
+
+.paybutton:hover {
+	color: #ffffff;
+   }
+
+.paybutton:focus {
+   box-shadow: none;
+   }
+
+.paybutton:active {
+   transform: translateY(1px);
+   }
